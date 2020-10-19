@@ -1,0 +1,518 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title "Thermocouple MAX31850"
+Date "2020-10-16"
+Rev "v0.1"
+Comp "Igor Knippenberg"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VSSA #PWR014
+U 1 1 5E3B9C37
+P 6000 4600
+AR Path="/5E3B5CB9/5E3B9C37" Ref="#PWR014"  Part="1" 
+AR Path="/5E3E25D1/5E3B9C37" Ref="#PWR040"  Part="1" 
+AR Path="/5E3E3667/5E3B9C37" Ref="#PWR048"  Part="1" 
+AR Path="/5E3E8E80/5E3B9C37" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 6000 4450 50  0001 C CNN
+F 1 "VSSA" H 6018 4773 50  0000 C CNN
+F 2 "" H 6000 4600 50  0001 C CNN
+F 3 "" H 6000 4600 50  0001 C CNN
+	1    6000 4600
+	-1   0    0    1   
+$EndComp
+Text HLabel 5400 4350 0    50   BiDi ~ 0
+SW_IO
+Text HLabel 6600 4350 2    50   Input ~ 0
+AD0
+Text HLabel 6600 4150 2    50   Input ~ 0
+AD1
+$Comp
+L Device:Ferrite_Bead_Small FB2
+U 1 1 5E3C8A66
+P 2850 4500
+AR Path="/5E3B5CB9/5E3C8A66" Ref="FB2"  Part="1" 
+AR Path="/5E3E25D1/5E3C8A66" Ref="FB7"  Part="1" 
+AR Path="/5E3E3667/5E3C8A66" Ref="FB9"  Part="1" 
+AR Path="/5E3E8E80/5E3C8A66" Ref="FB11"  Part="1" 
+F 0 "FB11" V 3050 4500 50  0000 C CNN
+F 1 "BLM18PG121SN1D" V 2950 4500 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 2780 4500 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 2850 4500 50  0001 C CNN
+F 4 "" H 2850 4500 50  0001 C CNN "lcsc#"
+F 5 "" H 2850 4500 50  0001 C CNN "manf#"
+F 6 "https://www.digikey.de/product-detail/en/murata-electronics/BLM18PG121SN1D/490-1037-1-ND/584485" H 2850 4500 50  0001 C CNN "Link"
+F 7 "BLM18PG121SN1D" H 2850 4500 50  0001 C CNN "MPN"
+F 8 "Murata Electronics" H 2850 4500 50  0001 C CNN "Manufacturer"
+F 9 "0603 (1608 Metric) " H 2850 4500 50  0001 C CNN "Package"
+F 10 "490-1037-1-ND" H 2850 4500 50  0001 C CNN "SPN"
+F 11 "120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm" H 2850 4500 50  0001 C CNN "description"
+	1    2850 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E3D0C8B
+P 8300 3950
+AR Path="/5DD6D4DA/5DD6D50E/5E3D0C8B" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED058/5E3D0C8B" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED066/5E3D0C8B" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED074/5E3D0C8B" Ref="C?"  Part="1" 
+AR Path="/5E15DEC3/5E3D0C8B" Ref="C?"  Part="1" 
+AR Path="/5E151517/5E3D0C8B" Ref="C?"  Part="1" 
+AR Path="/5E1EC3C1/5E3D0C8B" Ref="C?"  Part="1" 
+AR Path="/5E3BDE20/5E3D0C8B" Ref="C?"  Part="1" 
+AR Path="/5E3B5CB9/5E3D0C8B" Ref="C5"  Part="1" 
+AR Path="/5E3E25D1/5E3D0C8B" Ref="C23"  Part="1" 
+AR Path="/5E3E3667/5E3D0C8B" Ref="C29"  Part="1" 
+AR Path="/5E3E8E80/5E3D0C8B" Ref="C35"  Part="1" 
+F 0 "C35" H 8415 3996 50  0000 L CNN
+F 1 "0.1uF" H 8415 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8338 3800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8300 3950 50  0001 C CNN
+F 4 "" H 8300 3950 50  0001 C CNN "manf#"
+F 5 "" H 3000 2000 50  0001 C CNN "lcsc#"
+F 6 "https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNL/1276-CL10B104KB8NNNLCT-ND/10320686" H 8300 3950 50  0001 C CNN "Link"
+F 7 "CL10B104KB8NNNL" H 8300 3950 50  0001 C CNN "MPN"
+F 8 "Samsung Electro-Mechanics" H 8300 3950 50  0001 C CNN "Manufacturer"
+F 9 "0603 (1608 Metric) " H 8300 3950 50  0001 C CNN "Package"
+F 10 "1276-CL10B104KB8NNNLCT-ND" H 8300 3950 50  0001 C CNN "SPN"
+F 11 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 8300 3950 50  0001 C CNN "description"
+	1    8300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E3DBF02
+P 8750 3950
+AR Path="/5DD6D4DA/5DD6D50E/5E3DBF02" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED058/5E3DBF02" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED066/5E3DBF02" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED074/5E3DBF02" Ref="C?"  Part="1" 
+AR Path="/5E3D28F8/5E3DBF02" Ref="C?"  Part="1" 
+AR Path="/5E3DBF02" Ref="C?"  Part="1" 
+AR Path="/5E3B5CB9/5E3DBF02" Ref="C6"  Part="1" 
+AR Path="/5E3E25D1/5E3DBF02" Ref="C24"  Part="1" 
+AR Path="/5E3E3667/5E3DBF02" Ref="C30"  Part="1" 
+AR Path="/5E3E8E80/5E3DBF02" Ref="C36"  Part="1" 
+F 0 "C36" H 8865 3996 50  0000 L CNN
+F 1 "1uF" H 8865 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8788 3800 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 8750 3950 50  0001 C CNN
+F 4 "" H 8750 3950 50  0001 C CNN "manf#"
+F 5 "" H 8750 3950 50  0001 C CNN "lcsc#"
+F 6 "https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CL10A105KA8NNNC/1276-1102-1-ND/3889188" H 8750 3950 50  0001 C CNN "Link"
+F 7 "CL10A105KA8NNNC" H 8750 3950 50  0001 C CNN "MPN"
+F 8 "Samsung Electro-Mechanics" H 8750 3950 50  0001 C CNN "Manufacturer"
+F 9 "0603 (1608 Metric) " H 8750 3950 50  0001 C CNN "Package"
+F 10 "1276-1102-1-ND" H 8750 3950 50  0001 C CNN "SPN"
+F 11 "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" H 8750 3950 50  0001 C CNN "description"
+	1    8750 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 3450
+Wire Wire Line
+	8300 3450 8750 3450
+$Comp
+L Device:C C?
+U 1 1 5E3F83EC
+P 7800 3950
+AR Path="/5DD6D4DA/5DD6D50E/5E3F83EC" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED058/5E3F83EC" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED066/5E3F83EC" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED074/5E3F83EC" Ref="C?"  Part="1" 
+AR Path="/5E15DEC3/5E3F83EC" Ref="C?"  Part="1" 
+AR Path="/5E151517/5E3F83EC" Ref="C?"  Part="1" 
+AR Path="/5E1EC3C1/5E3F83EC" Ref="C?"  Part="1" 
+AR Path="/5E3BDE20/5E3F83EC" Ref="C?"  Part="1" 
+AR Path="/5E3B5CB9/5E3F83EC" Ref="C4"  Part="1" 
+AR Path="/5E3E25D1/5E3F83EC" Ref="C22"  Part="1" 
+AR Path="/5E3E3667/5E3F83EC" Ref="C28"  Part="1" 
+AR Path="/5E3E8E80/5E3F83EC" Ref="C34"  Part="1" 
+F 0 "C34" H 7915 3996 50  0000 L CNN
+F 1 "0.01uF" H 7915 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7838 3800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B103KB8NNNC_Spec.pdf" H 7800 3950 50  0001 C CNN
+F 4 "" H 7800 3950 50  0001 C CNN "manf#"
+F 5 "" H 2500 2000 50  0001 C CNN "lcsc#"
+F 6 "https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CL10B103KB8NNNC/1276-1009-1-ND/3889095" H 7800 3950 50  0001 C CNN "Link"
+F 7 "CL10B103KB8NNNC" H 7800 3950 50  0001 C CNN "MPN"
+F 8 "Samsung Electro-Mechanics" H 7800 3950 50  0001 C CNN "Manufacturer"
+F 9 "0603 (1608 Metric) " H 7800 3950 50  0001 C CNN "Package"
+F 10 "1276-1009-1-ND" H 7800 3950 50  0001 C CNN "SPN"
+F 11 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 7800 3950 50  0001 C CNN "description"
+	1    7800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4450 8750 4100
+Wire Wire Line
+	8300 4450 8300 4100
+Connection ~ 8300 4450
+Wire Wire Line
+	8300 4450 8750 4450
+Wire Wire Line
+	7800 4450 7800 4100
+Wire Wire Line
+	7800 3450 7800 3800
+Wire Wire Line
+	8300 3450 8300 3800
+Wire Wire Line
+	8750 3450 8750 3800
+$Comp
+L Device:C C?
+U 1 1 5E3C171C
+P 4150 3950
+AR Path="/5DD6D4DA/5DD6D50E/5E3C171C" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED058/5E3C171C" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED066/5E3C171C" Ref="C?"  Part="1" 
+AR Path="/5DD6D4DA/5DDED074/5E3C171C" Ref="C?"  Part="1" 
+AR Path="/5E15DEC3/5E3C171C" Ref="C?"  Part="1" 
+AR Path="/5E151517/5E3C171C" Ref="C?"  Part="1" 
+AR Path="/5E1EC3C1/5E3C171C" Ref="C?"  Part="1" 
+AR Path="/5E3BDE20/5E3C171C" Ref="C?"  Part="1" 
+AR Path="/5E3B5CB9/5E3C171C" Ref="C3"  Part="1" 
+AR Path="/5E3E25D1/5E3C171C" Ref="C21"  Part="1" 
+AR Path="/5E3E3667/5E3C171C" Ref="C27"  Part="1" 
+AR Path="/5E3E8E80/5E3C171C" Ref="C33"  Part="1" 
+F 0 "C33" H 4265 3996 50  0000 L CNN
+F 1 "0.01uF" H 4265 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 3800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B103KB8NNNC_Spec.pdf" H 4150 3950 50  0001 C CNN
+F 4 "" H 4150 3950 50  0001 C CNN "manf#"
+F 5 "" H -1150 2000 50  0001 C CNN "lcsc#"
+F 6 "https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CL10B103KB8NNNC/1276-1009-1-ND/3889095" H 4150 3950 50  0001 C CNN "Link"
+F 7 "CL10B103KB8NNNC" H 4150 3950 50  0001 C CNN "MPN"
+F 8 "Samsung Electro-Mechanics" H 4150 3950 50  0001 C CNN "Manufacturer"
+F 9 "0603 (1608 Metric) " H 4150 3950 50  0001 C CNN "Package"
+F 10 "1276-1009-1-ND" H 4150 3950 50  0001 C CNN "SPN"
+F 11 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 4150 3950 50  0001 C CNN "description"
+	1    4150 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3450 8300 3450
+Wire Wire Line
+	7800 4450 8300 4450
+$Comp
+L T962_Upgrade_Board:MAX31850 U1
+U 1 1 5E3B5F5C
+P 6000 3950
+AR Path="/5E3B5CB9/5E3B5F5C" Ref="U1"  Part="1" 
+AR Path="/5E3E25D1/5E3B5F5C" Ref="U5"  Part="1" 
+AR Path="/5E3E3667/5E3B5F5C" Ref="U6"  Part="1" 
+AR Path="/5E3E8E80/5E3B5F5C" Ref="U7"  Part="1" 
+AR Path="/5E3B5F5C" Ref="U?"  Part="1" 
+F 0 "U7" H 6300 4650 50  0000 C CNN
+F 1 "MAX31850KATB+ " H 6050 4550 50  0000 C CNN
+F 2 "T-962_Upgrade_board:MAX31850" H 6000 3950 50  0001 C CIN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf" H 6000 4439 50  0001 C CNN
+F 4 "" H 6000 3950 50  0001 C CNN "lcsc#"
+F 5 "" H 6000 3950 50  0001 C CNN "manf#"
+F 6 "https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX31850KATB%2b?qs=UmMSjoC1xtF32VhHDHXvag%3D%3D" H 6000 3950 50  0001 C CNN "Link"
+F 7 "MAX31850KATB+ " H 6000 3950 50  0001 C CNN "MPN"
+F 8 "Maxim Integrated" H 6000 3950 50  0001 C CNN "Manufacturer"
+F 9 "TDFN-10 " H 6000 3950 50  0001 C CNN "Package"
+F 10 "700-MAX31850KATB+" H 6000 3950 50  0001 C CNN "SPN"
+F 11 "Sensor Interface 1-WIRE THRMOCPLE TO DIG CONV K TYPE " H 6000 3950 50  0001 C CNN "description"
+	1    6000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB1
+U 1 1 5E3C59DE
+P 2800 3500
+AR Path="/5E3B5CB9/5E3C59DE" Ref="FB1"  Part="1" 
+AR Path="/5E3E25D1/5E3C59DE" Ref="FB6"  Part="1" 
+AR Path="/5E3E3667/5E3C59DE" Ref="FB8"  Part="1" 
+AR Path="/5E3E8E80/5E3C59DE" Ref="FB10"  Part="1" 
+F 0 "FB10" V 2600 3500 50  0000 C CNN
+F 1 "BLM18PG121SN1D" V 2700 3500 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 2730 3500 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 2800 3500 50  0001 C CNN
+F 4 "" H 2800 3500 50  0001 C CNN "lcsc#"
+F 5 "" H 2800 3500 50  0001 C CNN "manf#"
+F 6 "https://www.digikey.de/product-detail/en/murata-electronics/BLM18PG121SN1D/490-1037-1-ND/584485" H 2800 3500 50  0001 C CNN "Link"
+F 7 "BLM18PG121SN1D" H 2800 3500 50  0001 C CNN "MPN"
+F 8 "Murata Electronics" H 2800 3500 50  0001 C CNN "Manufacturer"
+F 9 "0603 (1608 Metric) " H 2800 3500 50  0001 C CNN "Package"
+F 10 "490-1037-1-ND" H 2800 3500 50  0001 C CNN "SPN"
+F 11 "120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm" H 2800 3500 50  0001 C CNN "description"
+	1    2800 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDDA #PWR012
+U 1 1 5E3B92B5
+P 5050 4250
+AR Path="/5E3B5CB9/5E3B92B5" Ref="#PWR012"  Part="1" 
+AR Path="/5E3E25D1/5E3B92B5" Ref="#PWR038"  Part="1" 
+AR Path="/5E3E3667/5E3B92B5" Ref="#PWR046"  Part="1" 
+AR Path="/5E3E8E80/5E3B92B5" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 5050 4100 50  0001 C CNN
+F 1 "VDDA" H 5067 4423 50  0000 C CNN
+F 2 "" H 5050 4250 50  0001 C CNN
+F 3 "" H 5050 4250 50  0001 C CNN
+	1    5050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:NUP2105L D1
+U 1 1 5F8E9AAF
+P 3350 3950
+AR Path="/5E3B5CB9/5F8E9AAF" Ref="D1"  Part="1" 
+AR Path="/5E3E3667/5F8E9AAF" Ref="D7"  Part="1" 
+AR Path="/5E3E25D1/5F8E9AAF" Ref="D6"  Part="1" 
+AR Path="/5E3E8E80/5F8E9AAF" Ref="D8"  Part="1" 
+F 0 "D8" V 3700 3750 50  0000 L CNN
+F 1 "NUP2105L" V 3600 3750 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3575 3900 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NUP2105L-D.PDF" H 3475 4075 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/on-semiconductor/SZNUP2105LT1G/SZNUP2105LT1GOSCT-ND/3487669" H 3350 3950 50  0001 C CNN "Link"
+F 5 "SZNUP2105LT1G" H 3350 3950 50  0001 C CNN "MPN"
+F 6 "ON Semiconductor" H 3350 3950 50  0001 C CNN "Manufacturer"
+F 7 "TO-236-3, SC-59, SOT-23-3 " H 3350 3950 50  0001 C CNN "Package"
+F 8 "SZNUP2105LT1GOSCT-ND" H 3350 3950 50  0001 C CNN "SPN"
+F 9 "44V Clamp 8A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3 (TO-236)" H 3350 3950 50  0001 C CNN "description"
+	1    3350 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 3950 2950 3950
+Wire Wire Line
+	2950 3950 2950 4050
+$Comp
+L power:VSSA #PWR09
+U 1 1 5F8ED8FD
+P 2950 4050
+AR Path="/5E3B5CB9/5F8ED8FD" Ref="#PWR09"  Part="1" 
+AR Path="/5E3E3667/5F8ED8FD" Ref="#PWR043"  Part="1" 
+AR Path="/5E3E25D1/5F8ED8FD" Ref="#PWR035"  Part="1" 
+AR Path="/5E3E8E80/5F8ED8FD" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 2950 3900 50  0001 C CNN
+F 1 "VSSA" H 2965 4223 50  0000 C CNN
+F 2 "" H 2950 4050 50  0001 C CNN
+F 3 "" H 2950 4050 50  0001 C CNN
+	1    2950 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 3500 2700 3500
+Wire Wire Line
+	2550 4500 2750 4500
+Wire Wire Line
+	4150 4500 4150 4100
+Wire Wire Line
+	2900 3500 3550 3500
+Wire Wire Line
+	4150 3500 4150 3800
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 4150 3500
+Wire Wire Line
+	2950 4500 3550 4500
+Wire Wire Line
+	3550 3500 3550 3850
+Wire Wire Line
+	3550 4050 3550 4500
+Connection ~ 3550 4500
+Wire Wire Line
+	3550 4500 4150 4500
+Wire Wire Line
+	4150 4500 4750 4500
+Wire Wire Line
+	4750 4500 4750 3950
+Wire Wire Line
+	4750 3950 5550 3950
+Connection ~ 4150 4500
+Wire Wire Line
+	5550 3750 4750 3750
+Wire Wire Line
+	4750 3750 4750 3500
+Wire Wire Line
+	4750 3500 4150 3500
+Connection ~ 4150 3500
+Wire Wire Line
+	5550 3550 5250 3550
+Wire Wire Line
+	5250 3550 5250 2950
+Wire Wire Line
+	5250 2950 5600 2950
+Wire Wire Line
+	5600 2950 5600 3000
+$Comp
+L power:VSSA #PWR013
+U 1 1 5F8F1DF2
+P 5600 3000
+AR Path="/5E3B5CB9/5F8F1DF2" Ref="#PWR013"  Part="1" 
+AR Path="/5E3E3667/5F8F1DF2" Ref="#PWR047"  Part="1" 
+AR Path="/5E3E25D1/5F8F1DF2" Ref="#PWR039"  Part="1" 
+AR Path="/5E3E8E80/5F8F1DF2" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 5600 2850 50  0001 C CNN
+F 1 "VSSA" H 5615 3173 50  0000 C CNN
+F 2 "" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0001 C CNN
+	1    5600 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 4150 5300 4150
+Wire Wire Line
+	5300 4150 5300 4250
+Wire Wire Line
+	5300 4250 5050 4250
+Wire Wire Line
+	5550 4350 5400 4350
+NoConn ~ 6450 3550
+Wire Wire Line
+	6450 4350 6600 4350
+Wire Wire Line
+	6450 4150 6600 4150
+Wire Wire Line
+	6000 4600 6000 4550
+Wire Wire Line
+	2550 4500 2550 4150
+Wire Wire Line
+	2550 4150 2350 4150
+Wire Wire Line
+	2550 3500 2550 3800
+Wire Wire Line
+	2550 3800 2350 3800
+Text HLabel 2350 3800 0    50   UnSpc ~ 0
+T-
+Text HLabel 2350 4150 0    50   UnSpc ~ 0
+T+
+$Comp
+L power:VDDA #PWR015
+U 1 1 5F8FBDE3
+P 8300 3200
+AR Path="/5E3B5CB9/5F8FBDE3" Ref="#PWR015"  Part="1" 
+AR Path="/5E3E3667/5F8FBDE3" Ref="#PWR049"  Part="1" 
+AR Path="/5E3E25D1/5F8FBDE3" Ref="#PWR041"  Part="1" 
+AR Path="/5E3E8E80/5F8FBDE3" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 8300 3050 50  0001 C CNN
+F 1 "VDDA" H 8315 3373 50  0000 C CNN
+F 2 "" H 8300 3200 50  0001 C CNN
+F 3 "" H 8300 3200 50  0001 C CNN
+	1    8300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSSA #PWR016
+U 1 1 5F8FC217
+P 8300 4550
+AR Path="/5E3B5CB9/5F8FC217" Ref="#PWR016"  Part="1" 
+AR Path="/5E3E3667/5F8FC217" Ref="#PWR050"  Part="1" 
+AR Path="/5E3E25D1/5F8FC217" Ref="#PWR042"  Part="1" 
+AR Path="/5E3E8E80/5F8FC217" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 8300 4400 50  0001 C CNN
+F 1 "VSSA" H 8315 4723 50  0000 C CNN
+F 2 "" H 8300 4550 50  0001 C CNN
+F 3 "" H 8300 4550 50  0001 C CNN
+	1    8300 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 4450 8300 4550
+Wire Wire Line
+	8300 3450 8300 3200
+Wire Wire Line
+	7150 3750 7150 3950
+Wire Wire Line
+	7150 4600 6000 4600
+Wire Wire Line
+	6450 3750 7150 3750
+Connection ~ 6000 4600
+Wire Wire Line
+	6450 3950 7150 3950
+Connection ~ 7150 3950
+Wire Wire Line
+	7150 3950 7150 4600
+$Comp
+L Device:C C2
+U 1 1 5F9032A0
+P 3550 4650
+AR Path="/5E3B5CB9/5F9032A0" Ref="C2"  Part="1" 
+AR Path="/5E3E3667/5F9032A0" Ref="C26"  Part="1" 
+AR Path="/5E3E25D1/5F9032A0" Ref="C20"  Part="1" 
+AR Path="/5E3E8E80/5F9032A0" Ref="C32"  Part="1" 
+F 0 "C32" H 3665 4696 50  0000 L CNN
+F 1 "DNP" H 3665 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 4500 50  0001 C CNN
+F 3 "~" H 3550 4650 50  0001 C CNN
+F 4 "DNP" H 3550 4650 50  0001 C CNN "Assembly"
+	1    3550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSSA #PWR010
+U 1 1 5F903B97
+P 3550 4850
+AR Path="/5E3B5CB9/5F903B97" Ref="#PWR010"  Part="1" 
+AR Path="/5E3E3667/5F903B97" Ref="#PWR044"  Part="1" 
+AR Path="/5E3E25D1/5F903B97" Ref="#PWR036"  Part="1" 
+AR Path="/5E3E8E80/5F903B97" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 3550 4700 50  0001 C CNN
+F 1 "VSSA" H 3565 5023 50  0000 C CNN
+F 2 "" H 3550 4850 50  0001 C CNN
+F 3 "" H 3550 4850 50  0001 C CNN
+	1    3550 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 4800 3550 4850
+$Comp
+L Device:C C1
+U 1 1 5F90502A
+P 3550 3350
+AR Path="/5E3B5CB9/5F90502A" Ref="C1"  Part="1" 
+AR Path="/5E3E3667/5F90502A" Ref="C25"  Part="1" 
+AR Path="/5E3E25D1/5F90502A" Ref="C19"  Part="1" 
+AR Path="/5E3E8E80/5F90502A" Ref="C31"  Part="1" 
+F 0 "C31" H 3665 3396 50  0000 L CNN
+F 1 "DNP" H 3665 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 3200 50  0001 C CNN
+F 3 "~" H 3550 3350 50  0001 C CNN
+F 4 "DNP" H 3550 3350 50  0001 C CNN "Assembly"
+	1    3550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSSA #PWR011
+U 1 1 5F906F5B
+P 3850 3000
+AR Path="/5E3B5CB9/5F906F5B" Ref="#PWR011"  Part="1" 
+AR Path="/5E3E3667/5F906F5B" Ref="#PWR045"  Part="1" 
+AR Path="/5E3E25D1/5F906F5B" Ref="#PWR037"  Part="1" 
+AR Path="/5E3E8E80/5F906F5B" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 3850 2850 50  0001 C CNN
+F 1 "VSSA" H 3865 3173 50  0000 C CNN
+F 2 "" H 3850 3000 50  0001 C CNN
+F 3 "" H 3850 3000 50  0001 C CNN
+	1    3850 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 3200 3550 2900
+Wire Wire Line
+	3550 2900 3850 2900
+Wire Wire Line
+	3850 2900 3850 3000
+Wire Notes Line
+	9600 5500 2050 5500
+Wire Notes Line
+	9600 2300 2050 2300
+Wire Notes Line
+	2050 5500 2050 2300
+Wire Notes Line
+	9600 2300 9600 5500
+Text Notes 2250 2550 0    79   ~ 0
+Thermocouple MAX21850
+$EndSCHEMATC
