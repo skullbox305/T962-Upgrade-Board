@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 2 9
 Title "USB FTDI & Buttons"
 Date "2020-02-07"
 Rev "v0.1"
@@ -722,7 +722,7 @@ Wire Wire Line
 $Comp
 L power:VSS #PWR?
 U 1 1 5F8E8849
-P 2550 6500
+P 2350 6500
 AR Path="/5DD6D4DA/5DEBB035/5F8E8849" Ref="#PWR?"  Part="1" 
 AR Path="/5E15DEC3/5F8E8849" Ref="#PWR?"  Part="1" 
 AR Path="/5E151517/5F8E8849" Ref="#PWR?"  Part="1" 
@@ -733,22 +733,17 @@ AR Path="/5E1C55BA/5F8E8849" Ref="#PWR?"  Part="1"
 AR Path="/5E1CBADF/5F8E8849" Ref="#PWR?"  Part="1" 
 AR Path="/5E1EC3C1/5F8E8849" Ref="#PWR?"  Part="1" 
 AR Path="/5E3BDE20/5F8E8849" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 2550 6350 50  0001 C CNN
-F 1 "VSS" H 2450 6600 50  0000 C CNN
-F 2 "" H 2550 6500 50  0001 C CNN
-F 3 "" H 2550 6500 50  0001 C CNN
-	1    2550 6500
+F 0 "#PWR020" H 2350 6350 50  0001 C CNN
+F 1 "VSS" H 2350 6650 50  0000 C CNN
+F 2 "" H 2350 6500 50  0001 C CNN
+F 3 "" H 2350 6500 50  0001 C CNN
+	1    2350 6500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2350 6300 2350 6500
 Wire Wire Line
-	2350 6500 2550 6500
-Wire Wire Line
-	2550 6500 2700 6500
-Wire Wire Line
 	2700 6500 2700 6300
-Connection ~ 2550 6500
 Wire Notes Line
 	700  4700 3450 4700
 Wire Notes Line
@@ -759,4 +754,19 @@ Wire Notes Line
 	700  6850 700  4700
 Text Notes 850  4900 0    79   ~ 0
 LED indicators
+$Comp
+L power:VSSA #PWR?
+U 1 1 5F930DE6
+P 2700 6500
+AR Path="/5E3B5CB9/5F930DE6" Ref="#PWR?"  Part="1" 
+AR Path="/5F930DE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E3D0FD8/5F930DE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E3BDE20/5F930DE6" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2700 6350 50  0001 C CNN
+F 1 "VSSA" H 2700 6650 50  0000 C CNN
+F 2 "" H 2700 6500 50  0001 C CNN
+F 3 "" H 2700 6500 50  0001 C CNN
+	1    2700 6500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

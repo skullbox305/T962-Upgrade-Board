@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3350 1400 1000 1000
-U 5E3B5CB9
-F0 "Thermocouple 1" 50
-F1 "MAX31850.sch" 50
-F2 "SW_IO" B R 4350 1900 50 
-F3 "AD0" I L 3350 1500 50 
-F4 "AD1" I L 3350 1600 50 
-F5 "T-" U L 3350 2250 50 
-F6 "T+" U L 3350 2100 50 
-$EndSheet
-$Sheet
 S 5000 5600 1000 1000
 U 5E3BDE20
 F0 "USB & Buttons & LEDs" 50
@@ -70,8 +59,8 @@ F1 "MAX31850.sch" 50
 F2 "SW_IO" B R 4350 3300 50 
 F3 "AD0" I L 3350 2900 50 
 F4 "AD1" I L 3350 3000 50 
-F5 "T-" U L 3350 3650 50 
-F6 "T+" U L 3350 3500 50 
+F5 "T-" U L 3350 3500 50 
+F6 "T+" U L 3350 3650 50 
 $EndSheet
 $Sheet
 S 3350 4200 1000 1000
@@ -81,8 +70,8 @@ F1 "MAX31850.sch" 50
 F2 "SW_IO" B R 4350 4650 50 
 F3 "AD0" I L 3350 4300 50 
 F4 "AD1" I L 3350 4400 50 
-F5 "T-" U L 3350 5050 50 
-F6 "T+" U L 3350 4900 50 
+F5 "T-" U L 3350 4900 50 
+F6 "T+" U L 3350 5050 50 
 $EndSheet
 $Sheet
 S 3350 5600 1000 1000
@@ -92,8 +81,8 @@ F1 "MAX31850.sch" 50
 F2 "SW_IO" B R 4350 6050 50 
 F3 "AD0" I L 3350 5700 50 
 F4 "AD1" I L 3350 5800 50 
-F5 "T-" U L 3350 6450 50 
-F6 "T+" U L 3350 6300 50 
+F5 "T-" U L 3350 6300 50 
+F6 "T+" U L 3350 6450 50 
 $EndSheet
 $Comp
 L power:VSSA #PWR?
@@ -377,26 +366,26 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 5F91E791
-P 7400 2200
+P 7400 2100
 AR Path="/5E3B5CB9/5F91E791" Ref="J?"  Part="1" 
 AR Path="/5E3E25D1/5F91E791" Ref="J?"  Part="1" 
 AR Path="/5E3E3667/5F91E791" Ref="J?"  Part="1" 
 AR Path="/5E3E8E80/5F91E791" Ref="J?"  Part="1" 
 AR Path="/5E4C66F1/5F91E791" Ref="J?"  Part="1" 
 AR Path="/5F91E791" Ref="J3"  Part="1" 
-F 0 "J3" H 7100 2400 50  0000 C CNN
-F 1 "GPIO Screw Terminal" H 7450 2300 50  0000 C CNN
-F 2 "T-962_Upgrade_board:PHOENIX_1985823" H 7400 2200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Multi-Postion%20PCTerminal%20Blocks.pdf" H 7400 2200 50  0001 C CNN
-F 4 "WJ15EDGRC-3.81-2P | WJ15EDGK-3.81-2P" H 7400 2200 50  0001 C CNN "manf#"
-F 5 "C8387 | C8466" H 7400 2200 50  0001 C CNN "lcsc#"
-F 6 "https://www.digikey.de/product-detail/en/phoenix-contact/1985823/277-11025-ND/2511042?cur=EUR&lang=en" H 7400 2200 50  0001 C CNN "Link"
-F 7 "1985823" H 7400 2200 50  0001 C CNN "MPN"
-F 8 "Phoenix Contact" H 7400 2200 50  0001 C CNN "Manufacturer"
-F 9 "277-11025-ND" H 7400 2200 50  0001 C CNN "SPN"
-F 10 "2 Position Wire to Board Terminal Block Horizontal with Board 0.150\" (3.81mm) Through Hole" H 7400 2200 50  0001 C CNN "description"
-	1    7400 2200
-	1    0    0    1   
+F 0 "J3" H 7400 1900 50  0000 C CNN
+F 1 "GPIO Screw Terminal" H 7450 1800 50  0000 C CNN
+F 2 "T-962_Upgrade_board:PHOENIX_1985823" H 7400 2100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Multi-Postion%20PCTerminal%20Blocks.pdf" H 7400 2100 50  0001 C CNN
+F 4 "WJ15EDGRC-3.81-2P | WJ15EDGK-3.81-2P" H 7400 2100 50  0001 C CNN "manf#"
+F 5 "C8387 | C8466" H 7400 2100 50  0001 C CNN "lcsc#"
+F 6 "https://www.digikey.de/product-detail/en/phoenix-contact/1985823/277-11025-ND/2511042?cur=EUR&lang=en" H 7400 2100 50  0001 C CNN "Link"
+F 7 "1985823" H 7400 2100 50  0001 C CNN "MPN"
+F 8 "Phoenix Contact" H 7400 2100 50  0001 C CNN "Manufacturer"
+F 9 "277-11025-ND" H 7400 2100 50  0001 C CNN "SPN"
+F 10 "2 Position Wire to Board Terminal Block Horizontal with Board 0.150\" (3.81mm) Through Hole" H 7400 2100 50  0001 C CNN "description"
+	1    7400 2100
+	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO1
@@ -464,4 +453,15 @@ Wire Wire Line
 Wire Wire Line
 	4650 1900 4650 1550
 Connection ~ 4650 1900
+$Sheet
+S 3350 1400 1000 1000
+U 5E3B5CB9
+F0 "Thermocouple 1" 50
+F1 "MAX31850.sch" 50
+F2 "SW_IO" B R 4350 1900 50 
+F3 "AD0" I L 3350 1500 50 
+F4 "AD1" I L 3350 1600 50 
+F5 "T-" U L 3350 2100 50 
+F6 "T+" U L 3350 2250 50 
+$EndSheet
 $EndSCHEMATC
