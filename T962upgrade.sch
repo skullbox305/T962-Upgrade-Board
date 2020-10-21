@@ -406,6 +406,7 @@ F 0 "H1" H 9100 5396 50  0000 L CNN
 F 1 "MountingHole" H 9100 5305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9000 5350 50  0001 C CNN
 F 3 "~" H 9000 5350 50  0001 C CNN
+F 4 "DNP" H 9000 5350 50  0001 C CNN "Assembly"
 	1    9000 5350
 	1    0    0    -1  
 $EndComp
@@ -417,6 +418,7 @@ F 0 "H3" H 9950 5396 50  0000 L CNN
 F 1 "MountingHole" H 9950 5305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9850 5350 50  0001 C CNN
 F 3 "~" H 9850 5350 50  0001 C CNN
+F 4 "DNP" H 9850 5350 50  0001 C CNN "Assembly"
 	1    9850 5350
 	1    0    0    -1  
 $EndComp
@@ -428,6 +430,7 @@ F 0 "H2" H 9100 5746 50  0000 L CNN
 F 1 "MountingHole" H 9100 5655 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9000 5700 50  0001 C CNN
 F 3 "~" H 9000 5700 50  0001 C CNN
+F 4 "DNP" H 9000 5700 50  0001 C CNN "Assembly"
 	1    9000 5700
 	1    0    0    -1  
 $EndComp
@@ -439,6 +442,7 @@ F 0 "H4" H 9950 5746 50  0000 L CNN
 F 1 "MountingHole" H 9950 5655 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9850 5700 50  0001 C CNN
 F 3 "~" H 9850 5700 50  0001 C CNN
+F 4 "DNP" H 9850 5700 50  0001 C CNN "Assembly"
 	1    9850 5700
 	1    0    0    -1  
 $EndComp
