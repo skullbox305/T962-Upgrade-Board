@@ -2,6 +2,8 @@
 
 - Work in progress...
 
+![image info](./board_image.png)
+
 ## Firmware ##
-This board is designed for the [T-962-improvements Firmware](https://github.com/UnifiedEngineering/T-962-improvements) developed by UnifiedEngineering.
+This board is designed for the [T-962-improvements Firmware](https://github.com/UnifiedEngineering/T-962-improvements) by UnifiedEngineering.
 
