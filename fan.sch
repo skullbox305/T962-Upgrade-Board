@@ -203,11 +203,17 @@ AR Path="/5DD6D4DA/5DDED074/5E46FB58" Ref="Q?"  Part="1"
 AR Path="/5E46134B/5E46FB58" Ref="Q?"  Part="1" 
 AR Path="/5E453957/5E46FB58" Ref="Q1"  Part="1" 
 F 0 "Q1" H 6250 4450 50  0000 L CNN
-F 1 "2N7002" H 6250 4550 50  0000 L CNN
+F 1 "2N7002K-7" H 6250 4550 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 4550 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5950 4450 50  0001 C CNN
-F 4 "C8545" H 5950 4450 50  0001 C CNN "lcsc#"
-F 5 "2N7002" H 5950 4450 50  0001 C CNN "manf#"
+F 3 "https://www.diodes.com/assets/Datasheets/ds30896.pdf" H 5950 4450 50  0001 C CNN
+F 4 "" H 5950 4450 50  0001 C CNN "lcsc#"
+F 5 "" H 5950 4450 50  0001 C CNN "manf#"
+F 6 "https://www.digikey.com/en/products/detail/diodes-incorporated/2N7002K-7/1934378" H 5950 4450 50  0001 C CNN "Link"
+F 7 "2N7002K-7" H 5950 4450 50  0001 C CNN "MPN"
+F 8 "Diodes Incorporated" H 5950 4450 50  0001 C CNN "Manufacturer"
+F 9 "SOT-23-3" H 5950 4450 50  0001 C CNN "Package"
+F 10 "2N7002K-7DICT-ND" H 5950 4450 50  0001 C CNN "SPN"
+F 11 "N-Channel 380mA (Ta) 370mW (Ta) Surface Mount SOT-23-3" H 5950 4450 50  0001 C CNN "description"
 	1    5950 4450
 	1    0    0    -1  
 $EndComp
@@ -224,9 +230,15 @@ AR Path="/5E453957/5E46FB4A" Ref="R10"  Part="1"
 F 0 "R10" H 5580 4246 50  0000 R CNN
 F 1 "100k" H 5580 4155 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 4200 50  0001 C CNN
-F 3 "~" H 5650 4200 50  0001 C CNN
-F 4 "C25803" H 5650 4200 50  0001 C CNN "lcsc#"
-F 5 "0603WAF1003T5E" H 5650 4200 50  0001 C CNN "manf#"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5650 4200 50  0001 C CNN
+F 4 "" H 5650 4200 50  0001 C CNN "lcsc#"
+F 5 "" H 5650 4200 50  0001 C CNN "manf#"
+F 6 "https://www.digikey.de/product-detail/en/yageo/RC0603JR-07100KL/311-100KGRCT-ND/729645" H 5650 4200 50  0001 C CNN "Link"
+F 7 "RC0603JR-07100KL" H 5650 4200 50  0001 C CNN "MPN"
+F 8 "Yageo" H 5650 4200 50  0001 C CNN "Manufacturer"
+F 9 "0603 (1608 Metric)" H 5650 4200 50  0001 C CNN "Package"
+F 10 "311-100KGRCT-ND" H 5650 4200 50  0001 C CNN "SPN"
+F 11 "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" H 5650 4200 50  0001 C CNN "description"
 	1    5650 4200
 	1    0    0    -1  
 $EndComp
@@ -295,9 +307,16 @@ P 6050 3250
 F 0 "J6" V 6014 3062 50  0000 R CNN
 F 1 "Fan Out" V 5923 3062 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6050 3250 50  0001 C CNN
-F 3 "~" H 6050 3250 50  0001 C CNN
-F 4 "B2B-XH-A(LF)(SN)" V 6050 3250 50  0001 C CNN "manf#"
-F 5 "C158012" V 6050 3250 50  0001 C CNN "lcsc#"
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 6050 3250 50  0001 C CNN
+F 4 "" V 6050 3250 50  0001 C CNN "manf#"
+F 5 "" V 6050 3250 50  0001 C CNN "lcsc#"
+F 6 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045" H 6050 3250 50  0001 C CNN "Link"
+F 7 "B2B-XH-A(LF)(SN)" H 6050 3250 50  0001 C CNN "MPN"
+F 8 "JST Sales America Inc." H 6050 3250 50  0001 C CNN "Manufacturer"
+F 9 "THT" H 6050 3250 50  0001 C CNN "Package"
+F 10 "455-2247-ND" H 6050 3250 50  0001 C CNN "SPN"
+F 11 "Connector Header Through Hole 2 position 0.098\" (2.50mm)" H 6050 3250 50  0001 C CNN "description"
+F 12 "" H 6050 3250 50  0001 C CNN "Assembly"
 	1    6050 3250
 	0    -1   -1   0   
 $EndComp
@@ -308,9 +327,16 @@ P 5350 3250
 F 0 "J5" V 5314 3062 50  0000 R CNN
 F 1 "Fan In" V 5223 3062 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5350 3250 50  0001 C CNN
-F 3 "~" H 5350 3250 50  0001 C CNN
-F 4 "B2B-XH-A(LF)(SN)" V 5350 3250 50  0001 C CNN "manf#"
-F 5 "C158012" V 5350 3250 50  0001 C CNN "lcsc#"
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 5350 3250 50  0001 C CNN
+F 4 "" V 5350 3250 50  0001 C CNN "manf#"
+F 5 "" V 5350 3250 50  0001 C CNN "lcsc#"
+F 6 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045" H 5350 3250 50  0001 C CNN "Link"
+F 7 "B2B-XH-A(LF)(SN)" H 5350 3250 50  0001 C CNN "MPN"
+F 8 "JST Sales America Inc." H 5350 3250 50  0001 C CNN "Manufacturer"
+F 9 "THT" H 5350 3250 50  0001 C CNN "Package"
+F 10 "455-2247-ND" H 5350 3250 50  0001 C CNN "SPN"
+F 11 "Connector Header Through Hole 2 position 0.098\" (2.50mm)" H 5350 3250 50  0001 C CNN "description"
+F 12 "" H 5350 3250 50  0001 C CNN "Assembly"
 	1    5350 3250
 	0    1    -1   0   
 $EndComp

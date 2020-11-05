@@ -205,9 +205,16 @@ AR Path="/5E3D0FD8/5E410D8A" Ref="R?"  Part="1"
 F 0 "R1" H 4580 1446 50  0000 R CNN
 F 1 "4k7" H 4580 1355 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 1400 50  0001 C CNN
-F 3 "~" H 4650 1400 50  0001 C CNN
-F 4 "C23162" H 4650 1400 50  0001 C CNN "lcsc#"
-F 5 "0603WAF4701T5E" H 4650 1400 50  0001 C CNN "manf#"
+F 3 "https://cdn-reichelt.de/documents/datenblatt/B300/RND_SMD_0603_RESISTOR_2017.pdf" H 4650 1400 50  0001 C CNN
+F 4 "" H 4650 1400 50  0001 C CNN "lcsc#"
+F 5 "" H 4650 1400 50  0001 C CNN "manf#"
+F 6 "https://www.reichelt.de/de/en/smd-resistor-0603-4-7-kohm-63-mw-1--rnd-0603-1-4-7k-p183069.html?r=1" H 4650 1400 50  0001 C CNN "Link"
+F 7 "RND1550603SAF4701T5E" H 4650 1400 50  0001 C CNN "MPN"
+F 8 "RND COMPONENTS" H 4650 1400 50  0001 C CNN "Manufacturer"
+F 9 "0603 (1608 Metric)" H 4650 1400 50  0001 C CNN "Package"
+F 10 "RND 0603 1 4,7K" H 4650 1400 50  0001 C CNN "SPN"
+F 11 "Thick film SMD resistor 0603" H 4650 1400 50  0001 C CNN "description"
+F 12 "" H 4650 1400 50  0001 C CNN "Assembly"
 	1    4650 1400
 	-1   0    0    -1  
 $EndComp
@@ -253,6 +260,8 @@ F 5 "Würth Elektronik" H 1800 3950 50  0001 C CNN "Manufacturer"
 F 6 "732-691243310008-ND" H 1800 3950 50  0001 C CNN "SPN"
 F 7 "https://www.digikey.de/product-detail/en/w%C3%BCrth-elektronik/691243310008/732-691243310008-ND/11477812" H 1800 3950 50  0001 C CNN "Link"
 F 8 "8 Position Wire to Board Terminal Block Horizontal with Board 0.150\" (3.81mm) Through Hole" H 1800 3950 50  0001 C CNN "description"
+F 9 "THT" H 1800 3950 50  0001 C CNN "Package"
+F 10 "" H 1800 3950 50  0001 C CNN "Assembly"
 	1    1800 3950
 	-1   0    0    -1  
 $EndComp
@@ -377,13 +386,14 @@ F 0 "J3" H 7400 1900 50  0000 C CNN
 F 1 "GPIO Screw Terminal" H 7450 1800 50  0000 C CNN
 F 2 "T-962_Upgrade_board:PHOENIX_1985823" H 7400 2100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Multi-Postion%20PCTerminal%20Blocks.pdf" H 7400 2100 50  0001 C CNN
-F 4 "WJ15EDGRC-3.81-2P | WJ15EDGK-3.81-2P" H 7400 2100 50  0001 C CNN "manf#"
-F 5 "C8387 | C8466" H 7400 2100 50  0001 C CNN "lcsc#"
+F 4 "" H 7400 2100 50  0001 C CNN "manf#"
+F 5 "" H 7400 2100 50  0001 C CNN "lcsc#"
 F 6 "https://www.digikey.de/product-detail/en/phoenix-contact/1985823/277-11025-ND/2511042?cur=EUR&lang=en" H 7400 2100 50  0001 C CNN "Link"
 F 7 "1985823" H 7400 2100 50  0001 C CNN "MPN"
 F 8 "Phoenix Contact" H 7400 2100 50  0001 C CNN "Manufacturer"
 F 9 "277-11025-ND" H 7400 2100 50  0001 C CNN "SPN"
 F 10 "2 Position Wire to Board Terminal Block Horizontal with Board 0.150\" (3.81mm) Through Hole" H 7400 2100 50  0001 C CNN "description"
+F 11 "THT" H 7400 2100 50  0001 C CNN "Package"
 	1    7400 2100
 	1    0    0    -1  
 $EndComp

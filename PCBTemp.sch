@@ -20,9 +20,16 @@ P 2850 1800
 F 0 "U8" H 2620 1846 50  0000 R CNN
 F 1 "DS18S20" H 2620 1755 50  0000 R CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1850 1550 50  0001 C CNN
-F 3 "http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf" H 2700 2050 50  0001 C CNN
-F 4 "C52574" H 2850 1800 50  0001 C CNN "lcsc#"
-F 5 "DS18S20" H 2850 1800 50  0001 C CNN "manf#"
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS18S20.pdf" H 2700 2050 50  0001 C CNN
+F 4 "" H 2850 1800 50  0001 C CNN "lcsc#"
+F 5 "" H 2850 1800 50  0001 C CNN "manf#"
+F 6 "" H 2850 1800 50  0001 C CNN "Assembly"
+F 7 "https://www.digikey.de/product-detail/en/maxim-integrated/DS18S20-T-R/DS18S20-CT-ND/957039" H 2850 1800 50  0001 C CNN "Link"
+F 8 "DS18S20+T&R" H 2850 1800 50  0001 C CNN "MPN"
+F 9 "Maxim Integrated" H 2850 1800 50  0001 C CNN "Manufacturer"
+F 10 "TO-226-3, TO-92-3 (TO-226AA) (Formed Leads) " H 2850 1800 50  0001 C CNN "Package"
+F 11 "DS18S20+CT-ND" H 2850 1800 50  0001 C CNN "SPN"
+F 12 "Temperature Sensor Digital, Local -55°C ~ 125°C 9 b TO-92-3" H 2850 1800 50  0001 C CNN "description"
 	1    2850 1800
 	1    0    0    -1  
 $EndComp
@@ -85,6 +92,7 @@ F 8 "Samsung Electro-Mechanics" H 1500 1850 50  0001 C CNN "Manufacturer"
 F 9 "0603 (1608 Metric) " H 1500 1850 50  0001 C CNN "Package"
 F 10 "1276-CL10B104KB8NNNLCT-ND" H 1500 1850 50  0001 C CNN "SPN"
 F 11 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 1500 1850 50  0001 C CNN "description"
+F 12 "" H 1500 1850 50  0001 C CNN "Assembly"
 	1    1500 1850
 	-1   0    0    -1  
 $EndComp

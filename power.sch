@@ -67,6 +67,7 @@ F 8 "Samsung Electro-Mechanics" H 2550 2200 50  0001 C CNN "Manufacturer"
 F 9 "0603 (1608 Metric) " H 2550 2200 50  0001 C CNN "Package"
 F 10 "1276-CL10B104KB8NNNLCT-ND" H 2550 2200 50  0001 C CNN "SPN"
 F 11 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 2550 2200 50  0001 C CNN "description"
+F 12 "" H 2550 2200 50  0001 C CNN "Assembly"
 	1    2550 2200
 	-1   0    0    -1  
 $EndComp
@@ -364,6 +365,7 @@ F 8 "Samsung Electro-Mechanics" H 7700 2200 50  0001 C CNN "Manufacturer"
 F 9 "0603 (1608 Metric) " H 7700 2200 50  0001 C CNN "Package"
 F 10 "1276-CL10B104KB8NNNLCT-ND" H 7700 2200 50  0001 C CNN "SPN"
 F 11 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 7700 2200 50  0001 C CNN "description"
+F 12 "" H 7700 2200 50  0001 C CNN "Assembly"
 	1    7700 2200
 	-1   0    0    -1  
 $EndComp
@@ -522,6 +524,11 @@ F 1 "LM1117-3.3" H 2950 1901 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2950 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 2950 1750 50  0001 C CNN
 F 4 "LM1117IMP-3.3/NOPB" H 2950 1901 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/LM1117IMP-3-3-NOPB/482939" H 2950 1750 50  0001 C CNN "Link"
+F 6 "Texas Instruments" H 2950 1750 50  0001 C CNN "Manufacturer"
+F 7 "SOT-223" H 2950 1750 50  0001 C CNN "Package"
+F 8 "LM1117IMP-3.3/NOPBTR-ND" H 2950 1750 50  0001 C CNN "SPN"
+F 9 "Linear Voltage Regulator IC Output 800mA SOT-223" H 2950 1750 50  0001 C CNN "description"
 	1    2950 1750
 	1    0    0    -1  
 $EndComp
@@ -534,6 +541,11 @@ F 1 "LM1117-3.3" H 8100 1901 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8100 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 8100 1750 50  0001 C CNN
 F 4 "LM1117IMP-3.3/NOPB" H 8100 1901 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/en/products/detail/texas-instruments/LM1117IMP-3-3-NOPB/482939" H 8100 1750 50  0001 C CNN "Link"
+F 6 "Texas Instruments" H 8100 1750 50  0001 C CNN "Manufacturer"
+F 7 "SOT-223" H 8100 1750 50  0001 C CNN "Package"
+F 8 "LM1117IMP-3.3/NOPBTR-ND" H 8100 1750 50  0001 C CNN "SPN"
+F 9 "Linear Voltage Regulator IC Output 800mA SOT-223" H 8100 1750 50  0001 C CNN "description"
 	1    8100 1750
 	1    0    0    -1  
 $EndComp
