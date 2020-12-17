@@ -83,7 +83,7 @@ $EndComp
 Wire Wire Line
 	2500 3850 2500 3750
 $Comp
-L Connector:USB_B_Micro J4
+L T962upgrade-rescue:USB_B_Micro-Connector J4
 U 1 1 5E20AD27
 P 2000 2450
 F 0 "J4" H 2055 2917 50  0000 C CNN
@@ -782,4 +782,15 @@ Wire Wire Line
 	5200 2250 5550 2250
 Wire Wire Line
 	5200 2150 5550 2150
+$Comp
+L T962upgrade-rescue:USB_B_Micro-Connector J?
+U 1 1 5FAB3D36
+P -350 2400
+F 0 "J?" H -293 2867 50  0000 C CNN
+F 1 "USB_B_Micro" H -293 2776 50  0000 C CNN
+F 2 "" H -200 2350 50  0001 C CNN
+F 3 "~" H -200 2350 50  0001 C CNN
+	1    -350 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
